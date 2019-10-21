@@ -1,0 +1,6 @@
+1. Disable SecureBoot from bios setup
+2. Create a PEN drive with FAT32 FS
+3. Create a path EFI/Boot/bootx64.efi
+4. Change the boot order to USB PEN drive as First option
+5. Reset -> System boots to EFI Shell
+6. Run memoryprotect.efi

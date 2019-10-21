@@ -1,0 +1,18 @@
+Steps to build
+
+1)
+UDK2018\Conf\target.txt
+ACTIVE_PLATFORM       = MdeModulePkg/MdeModulePkg.dsc
+TOOL_CHAIN_TAG        = VS2008x86
+TARGET_ARCH           = X64
+
+2)
+run Edksetup.bat in Cmd Prompt at C:\UDK2018
+
+3)
+Build the uEFI App
+
+build -p MdeModulePkg/MdeModulePkg.dsc -a X64 -m MdeModulePkg/Application/MemoryProtect/MemoryProtect.inf
+
+
+  
