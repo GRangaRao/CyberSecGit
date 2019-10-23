@@ -3,4 +3,7 @@
 3. Create a path EFI/Boot/bootx64.efi
 4. Change the boot order to USB PEN drive as First option
 5. Reset -> System boots to EFI Shell
-6. Run memoryprotect.efi
+6. Run the App memoryprotect.efi 
+
+For Driver
+1. command is load MemoryProtect_smmbase2.efi 
